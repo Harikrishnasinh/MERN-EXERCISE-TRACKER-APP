@@ -33,7 +33,7 @@ const CreateUser = () => {
       <form className='card-body' method='post' onSubmit={handleSubmit}>
 
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label fs-4">Username</label>
+          <label for="exampleInputEmail1" class="form-label fs-4">Enter your username</label>
           <input type="text" name="username" class="form-control fs-4" id="exampleInputEmail1" required onChange={changeHandler} />
         </div>
 
